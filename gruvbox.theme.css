@@ -8,13 +8,13 @@
   --gruvbox-light1: #fbf1c7;
   --gruvbox-light2: #ebdbb2;
   --gruvbox-light3: #d5c4a1;
-  --gruvbox-green-blue: #458588;
-  --gruvbox-turquoise: #689d6a;
-  --gruvbox-cyan: #8ec07c;
+  --gruvbox-darker-blue: #458588;
+  --gruvbox-darker-aqua: #689d6a;
+  --gruvbox-aqua: #8ec07c;
   --gruvbox-blue: #83a598;
   --gruvbox-red: #fb4934;
   --gruvbox-orange: #fe8019;
-  --gruvbox-yellow: #fabd2f;
+  --gruvbox-yellow: #d79921;
   --gruvbox-green: #b8bb26;
   --gruvbox-pink: #d3869b;
 
@@ -48,9 +48,9 @@
 }
 
 .theme-dark {
-  --header-primary: var(--gruvbox-light5);
+  --header-primary: var(--gruvbox-light-1);
   --header-secondary: #ebdbb2;
-  --text-normal: var(--gruvbox-light2);
+  --text-normal: var(--gruvbox-light-1);
   --text-muted: var(--gruvbox-grey1);
   --text-link: hsl(213, calc(var(--saturation-factor, 1) * 75%), 60%); /* #4c91e6 */
   --text-link-low-saturation: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52%); /* --gruvbox-blue */
@@ -58,12 +58,12 @@
   --text-warning: hsl(14, calc(var(--saturation-factor, 1) * 51%), 63%); /* --gruvbox-orange */
   --text-danger: hsl(354, calc(var(--saturation-factor, 1) * 42%), 56%); /* --gruvbox-red */
   --text-brand: hsl(60, calc(var(--saturation-factor, 1) * 25%), 65%); /* --gruvbox-primary */
-  --text-primary-background: var(--gruvbox-black1);
+  --text-primary-background: var(--gruvbox-grey1);
 
-  --interactive-normal: var(--text-normal);
-  --interactive-hover: var(--gruvbox-primary);
-  --interactive-active: var(--gruvbox-light5);
-  --interactive-muted: var(--gruvbox-dark5);
+  --interactive-normal: var(--gruvbox-light2);
+  --interactive-hover: var(--gruvbox-light0);
+  --interactive-active: var(--gruvbox-blue);
+  --interactive-muted: var(--gruvbox-dark4);
 
   --text-mention: var(--gruvbox-primary);
   --background-mention: rgba(250, 189, 47, 0.8);
@@ -126,12 +126,12 @@
 
   --background-mentioned: hsla(60, calc(var(--saturation-factor, 1) * 25%), 65%, 0.15);
   --background-mentioned-hover: hsla(60, calc(var(--saturation-factor, 1) * 25%), 65%, 0.205);
-  --background-message-hover: rgba(43, 48, 59, 0.2);
-  --channels-default: var(--gruvbox-grey1);
+  --background-message-hover:rgba(251, 241, 199, 0.1);
+  --channels-default: var(--gruvbox-light-1);
   --guild-header-text-shadow: 0 1px 1px var(--gruvbox-dark1);
   --channeltextarea-background: var(--gruvbox-dark4);
   --activity-card-background: var(--background-secondary-alt);
-  --textbox-markdown-syntax: #8e9297;
+  --textbox-markdown-syntax: var(--gruvbox-grey1);
 
   --input-background: rgba(0, 0, 0, 0.2);
   --input-placeholder-text: var(--text-muted);
@@ -167,7 +167,7 @@
   --interactive-muted: var(--text-muted);
 
   --text-mention: var(--gruvbox-primary);
-  --background-mention: rgba(250, 189, 47, 0.2);
+  --background-mention: rgba(250, 189, 47, 0.5);
   --text-mention-hover: var(--text-primary-background);
   --background-mention-hover: var(--gruvbox-primary);
   --message-ephemeral: var(--gruvbox-blue);
@@ -185,7 +185,7 @@
   --background-tertiary: var(--gruvbox-light3);
   --background-accent: var(--gruvbox-light-1);
   --background-floating: var(--background-secondary);
-  --background-floating-gradient: linear-gradient(90deg, rgba(229, 233, 240, 0), var(--background-floating) 80%);
+  --background-floating-gradient: linear-gradient(90deg, rgba(250, 189, 47, 0.2), var(--background-floating) 80%);
   --background-nested-floating: #fbf1c7;
   --background-mobile-primary: #ebdbb2;
   --background-mobile-secondary: #fbf1c7;
@@ -306,8 +306,8 @@
 
   --button-brand-background: var(--gruvbox-primary);
   --button-brand-text: var(--gruvbox-black1);
-  --button-brand-background-hover: #7da8a8;
-  --button-brand-background-active: #709494;
+  --button-brand-background-hover: #fb4934;
+  --button-brand-background-active: #fb4934;
   --button-outline-brand-text: var(--text-normal);
   --button-outline-brand-border: var(--text-primary);
   --button-outline-brand-background-hover: var(--gruvbox-primary);
