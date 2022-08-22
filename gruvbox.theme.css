@@ -27,7 +27,7 @@
   --gruvbox-black2: #32302f;
   --gruvbox-black3: #1d2021;
   --gruvbox-dark5: #32302f;
-  --gruvbox-primary: var(--gruvbox-red);
+  --gruvbox-primary: var(--gruvbox-yellow);
 
   --button-white: var(--gruvbox-light3);
   --button-white-text: var(--gruvbox-black1);
@@ -52,7 +52,7 @@
   --header-secondary: #ebdbb2;
   --text-normal: var(--gruvbox-light-1);
   --text-muted: var(--gruvbox-grey1);
-  --text-link: hsl(213, calc(var(--saturation-factor, 1) * 75%), 60%); /* #4c91e6 */
+  --text-link: hsl(0, calc(var(--saturation-factor, 1) * 75%), 60%); /* #4c91e6 */
   --text-link-low-saturation: hsl(213, calc(var(--saturation-factor, 1) * 32%), 52%); /* --gruvbox-blue */
   --text-positive: hsl(92, calc(var(--saturation-factor, 1) * 28%), 65%); /* --gruvbox-green */
   --text-warning: hsl(14, calc(var(--saturation-factor, 1) * 51%), 63%); /* --gruvbox-orange */
@@ -69,7 +69,7 @@
   --background-mention: rgba(250, 189, 47, 0.8);
   --text-mention-hover: var(--text-primary-background);
   --background-mention-hover: var(--gruvbox-primary);
-  --message-ephemeral: var(--gruvbox-blue);
+  --message-ephemeral: var(--gruvbox-red);
   --background-ephemeral: rgba(251, 241, 199, 0.4)
   --background-ephemeral-hover: rgba(251, 241, 199, 0.2)
   --mentioned-timestamp: var(--gruvbox-grey1);
@@ -91,7 +91,7 @@
   --background-modifier-hover: rgba(60, 56, 54, 0.3);
   --background-modifier-hover-gradient: linear-gradient(
     90deg,
-    rgba(43, 48, 59, 0),
+    rgba(0, 48, 59, 0),
     var(--background-secondary-alt) 50%
   );
   --background-modifier-active: rgba(235, 219, 178, 0.3);
@@ -141,8 +141,8 @@
   --deprecated-store-bg: #36393f;
   --deprecated-quickswitcher-input-background: var(--gruvbox-black2);
   --deprecated-quickswitcher-input-placeholder: var(--text-muted);
-  --deprecated-text-input-bg: rgba(0, 0, 0, 0.2);
-  --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+  --deprecated-text-input-bg: rgba(0, 200, 0, 0.2);
+  --deprecated-text-input-border: rgba(0, 200, 0, 0.3);
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: var(--gruvbox-black2);
   --deprecated-text-input-prefix: #dcddde;
